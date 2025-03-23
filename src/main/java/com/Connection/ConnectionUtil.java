@@ -17,9 +17,9 @@ public class ConnectionUtil {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-    	String ADMIN_DB_URL="jdbc:postgresql://localhost:5432/admin";
+    	String ADMIN_DB_URL="jdbc:postgresql://localhost:5432/YOUR DB";
     	String username="postgres";
-    	String password="debanjan";
+    	String password="YOUR PASSWORD";
     	
     	adminconn=DriverManager.getConnection(ADMIN_DB_URL,username,password);
         return adminconn;
@@ -33,9 +33,9 @@ public class ConnectionUtil {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-    	String CUSTOMER_DB_URL="jdbc:postgresql://localhost:5432/customer";
+    	String CUSTOMER_DB_URL="jdbc:postgresql://localhost:5432/YOUR DB";
     	String username="postgres";
-    	String password="debanjan";
+    	String password="YOUR PASSWORD";
 
     	Connection conn =null;
         conn= DriverManager.getConnection(CUSTOMER_DB_URL,username,password);
